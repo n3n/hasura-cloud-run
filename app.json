@@ -8,7 +8,7 @@
     "HASURA_GRAPHQL_ENABLE_CONSOLE": {
       "description": "Enable the Hasura Console (served by the server on / and /console) (default: false)",
       "required": false,
-      "value": false
+      "value": "false"
     },
     "HASURA_GRAPHQL_ADMIN_SECRET": {
       "description": "Admin secret key, required to access this instance. This is mandatory when you use webhook or JWT.",
@@ -17,7 +17,7 @@
     "HASURA_GRAPHQL_DEV_MODE": {
       "description": "Set dev mode for GraphQL requests; include the internal key in the errors extensions of the response (if required).",
       "required": false,
-      "value": false
+      "value": "false"
     },
     "HASURA_GRAPHQL_ENABLED_APIS": {
       "description": "Comma separated list of APIs (options: metadata, graphql, pgdump) to be enabled. (default: metadata,graphql,pgdump)",
@@ -27,7 +27,7 @@
     "ENABLE_MIGRATIONS": {
       "description": "Enable the Hasura automatic migration when run container (default: false)",
       "required": false,
-      "value": false
+      "value": "false"
     }
   },
   "options": {
