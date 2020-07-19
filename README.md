@@ -39,5 +39,6 @@ The connection should look something like this:
 ```bash
 postgres://<user>:<password>@/<database>?host=/cloudsql/<instance_name>
 ```
+You need to replace DATABASE_URI above with this connection string.
 
 Reference https://stackoverflow.com/a/58513078
