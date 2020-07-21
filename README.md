@@ -17,7 +17,8 @@ export DB_NAME=""
 export DB_USER=""
 export DB_PASS=""
 
-# Build image
+# Build image 
+# Warning: this command won't work if cloned repo is in Windows filesystem. In this case use Linux or Deploy Button above. More details in issue #2
 gcloud builds submit . \
   --tag gcr.io/$PROJECT_ID/$APP_NAME \
   --timeout=720s \
