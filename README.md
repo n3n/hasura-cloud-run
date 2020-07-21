@@ -54,6 +54,6 @@ The connection should look something like this:
 ```bash
 postgres://<user>:<password>@/<database>?host=/cloudsql/<instance_name>
 ```
-You need to replace DATABASE_URI above with this connection string.
+This string is needed as HASURA_GRAPHQL_DATABASE_URL setting.
 
 Reference https://stackoverflow.com/a/58513078
